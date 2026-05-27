@@ -1,9 +1,37 @@
 @charset "utf-8";
 body {
 	background-color:hotpink; 
+	border: dotted 20px Pink;
 }
+img {
+		width: 1000px;
+		
+	}
+
+
 h1 {
 	font-family: "Honk";
-	text-shadow: color: "White";
-	font-size:90px;
+	text-shadow: Pink;
+	color: White;
+	font-size:100px;
 }
+nav {
+	font-size: 50px;
+	font-family: "Honk";
+	text-decoration-color: #000000;
+}
+nav a {
+	text-decoration: none;
+	padding: 9px 30px;
+	font-family: "Honk";
+}
+/* Removes default list bullets, margins, and padding */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding:0;
+  display: flex; /* Aligns list items horizontally */
+  background-color:aqua;
+}
+	
